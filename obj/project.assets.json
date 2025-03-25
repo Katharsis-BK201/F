@@ -28764,20 +28764,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lab3-28\\.nuget\\packages\\": {}
+    "C:\\Users\\Percival\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lab3-28\\F\\F.csproj",
+      "projectUniqueName": "C:\\Users\\Percival\\Documents\\F\\F.csproj",
       "projectName": "F",
-      "projectPath": "C:\\Users\\Lab3-28\\F\\F.csproj",
-      "packagesPath": "C:\\Users\\Lab3-28\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lab3-28\\F\\obj\\",
+      "projectPath": "C:\\Users\\Percival\\Documents\\F\\F.csproj",
+      "packagesPath": "C:\\Users\\Percival\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Percival\\Documents\\F\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Users\\Lab3-28\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Percival\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0-android",
@@ -28853,6 +28853,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.2, 9.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.Android": {
             "privateAssets": "all"
@@ -28896,6 +28902,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.2, 9.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.iOS": {
             "privateAssets": "all"
@@ -28940,6 +28952,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.2, 9.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.MacCatalyst": {
             "privateAssets": "all"
