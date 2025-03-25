@@ -21,5 +21,26 @@ public partial class ShowUsersPage : ContentPage
     {
         await Navigation.PopAsync();
     }
+    private async void OnDeleteClicked(object sender, EventArgs e)
+        {
+            if (sender is Button button && button.CommandParameter is User user)
+            {
+                await _databaseHelper.DeleteUserAsync(user);
+                LoadUsers();
+                await DisplayAlert("Delete", $"Delete user {user.Name}?", "OK");
+            }
+        }
+    private async void OnEditClicked(object sender, EventArgs e)
+{
+    if (sender is Button button && button.BindingContext is User user)
+    {
+        await Navigation.PushAsync(new EditUserPage(user));
+    }
+    else
+    {
+        await DisplayAlert("Error", "Unable to edit user.", "OK");
+    }
+}
+
 
 }

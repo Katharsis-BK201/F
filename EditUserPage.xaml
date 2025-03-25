@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:F"
+             x:Class="F.EditUserPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Label Text="Edit User" FontSize="20" FontAttributes="Bold"/>
+            <Entry x:Name="NameEntry" Placeholder="Name" />
+            <Entry x:Name="EmailEntry" Placeholder="Email" />
+            <Button Text="Save" Clicked="OnSaveClicked"/>
+            <Button Text="Back" Clicked="OnBackClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+

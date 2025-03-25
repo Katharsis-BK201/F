@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v9oNbWx3Xcw=",
+  "dgSpecHash": "CXA6VTLH/nc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Percival\\Documents\\F\\F.csproj",
   "expectedPackageFiles": [
@@ -131,9 +131,9 @@
     "C:\\Users\\Percival\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.8.1.3\\xamarin.kotlinx.coroutines.core.jvm.1.8.1.3.nupkg.sha512",
     "C:\\Users\\Percival\\.nuget\\packages\\xamarin.kotlinx.serialization.core\\1.7.1.3\\xamarin.kotlinx.serialization.core.1.7.1.3.nupkg.sha512",
     "C:\\Users\\Percival\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512",
-    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.2\\microsoft.netcore.app.ref.9.0.2.nupkg.sha512",
-    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.2\\microsoft.netcore.app.ref.9.0.2.nupkg.sha512",
-    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.2\\microsoft.netcore.app.ref.9.0.2.nupkg.sha512",
+    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.3\\microsoft.netcore.app.ref.9.0.3.nupkg.sha512",
+    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.3\\microsoft.netcore.app.ref.9.0.3.nupkg.sha512",
+    "C:\\Users\\Percival\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.3\\microsoft.netcore.app.ref.9.0.3.nupkg.sha512",
     "C:\\Users\\Percival\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
