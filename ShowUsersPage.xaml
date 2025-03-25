@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:F"
+             x:Class="F.ShowUsersPage">
+<ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Users List" FontSize="20" FontAttributes="Bold"/>
+        <ListView x:Name="UsersListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Email}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Back" Clicked="OnBackClicked"/>
+    </VerticalStackLayout>
+</ScrollView>
+</ContentPage>
